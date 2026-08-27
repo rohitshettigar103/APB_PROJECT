@@ -1,0 +1,493 @@
+# vsim -c apb_top 
+# Start time: 00:35:56 on Aug 19,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.apb_inf(fast)
+# Loading work.apb_package(fast)
+# Loading work.apb_top_sv_unit(fast)
+# Loading work.apb_top(fast)
+# ** Warning: (vsim-3838) apb_interface.sv(2): Variable '/apb_top/inf1/PRESET_n' written by continuous and procedural assignments. 
+# One of the assignments is implicit. See apb_interface.sv(2).
+#    Time: 0 ns  Iteration: 0  Instance: /apb_top/inf1 File: apb_interface.sv
+################################################## start of simulation #####################################################
+################################################## start generation #####################################################
+# Generated values:::::PWDATA:71,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:5d,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:d3,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:d7,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:ad,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:93,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:c3,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:2d,PADDR:04,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:d0,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:72,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:61,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:89,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:54,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:06,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:1d,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:76,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:ab,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:00,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:08,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:02,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:2e,PADDR:14,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:0a,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:d1,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:18,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:10,PADDR:08,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:23,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:d9,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:71,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:a0,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:a9,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:05,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:a8,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:7e,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:e7,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:91,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:6c,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:44,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:ee,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:0a,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:e3,PADDR:10,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:10,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:7f,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:b0,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:4e,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:69,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:6f,PADDR:1c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:93,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:5b,PADDR:04,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:a4,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:38,PADDR:1c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:f0,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:3b,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:39,PADDR:08,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:21,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:cc,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:fd,PADDR:08,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:8e,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:21,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:32,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:8c,PADDR:08,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:39,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:46,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:2d,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:31,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:ff,PADDR:14,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:0c,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:9a,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:e2,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:5c,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:e9,PADDR:10,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:83,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:32,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:b3,PADDR:1c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:94,PADDR:08,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:62,PADDR:04,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:d3,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:73,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:e2,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:1e,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:c9,PADDR:0c,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:6c,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:8e,PADDR:04,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:17,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:18,PADDR:00,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:5d,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:9b,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:4b,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:d5,PADDR:10,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:f1,PADDR:0c,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:9f,PADDR:18,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:c2,PADDR:18,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:ac,PADDR:04,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:87,PADDR:18,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:c3,PADDR:14,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:ac,PADDR:00,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:ea,PADDR:18,PWRITE:0,pstrb:1
+# Generated values:::::PWDATA:f6,PADDR:08,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:a2,PADDR:14,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:8e,PADDR:04,PWRITE:1,pstrb:1
+# Generated values:::::PWDATA:6c,PADDR:1c,PWRITE:0,pstrb:1
+################################################## Monitor started #####################################################
+# [0] [SCOREBOARD] starting comparision
+# Reference: data out at addr:0c, PRDATA:00
+# PASS: [SCOREBOARD] 90 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 1
+# Reference: data out at addr:08, PRDATA:00
+# PASS: [SCOREBOARD] 150 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 2
+#  MEM[1c] <= 0xd3
+# Reference: data into memory mem[1c]=d3
+# PASS: [SCOREBOARD] 210 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 3
+# Reference: data out at addr:0c, PRDATA:00
+# PASS: [SCOREBOARD] 270 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 4
+# Reference: data out at addr:04, PRDATA:00
+# PASS: [SCOREBOARD] 330 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 5
+# Reference: data out at addr:08, PRDATA:00
+# PASS: [SCOREBOARD] 390 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 6
+#  MEM[18] <= 0xc3
+# Reference: data into memory mem[18]=c3
+# PASS: [SCOREBOARD] 450 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 7
+#  MEM[4] <= 0x2d
+# Reference: data into memory mem[04]=2d
+# PASS: [SCOREBOARD] 510 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 8
+#  MEM[0] <= 0xd0
+# Reference: data into memory mem[00]=d0
+# PASS: [SCOREBOARD] 570 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 9
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 630 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 10
+# Reference: data out at addr:14, PRDATA:00
+# PASS: [SCOREBOARD] 690 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 11
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 750 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 12
+#  MEM[18] <= 0x54
+# Reference: data into memory mem[18]=54
+# PASS: [SCOREBOARD] 810 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 13
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 870 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 14
+#  MEM[0] <= 0x1d
+# Reference: data into memory mem[00]=1d
+# PASS: [SCOREBOARD] 930 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 15
+#  MEM[0] <= 0x76
+# Reference: data into memory mem[00]=76
+# PASS: [SCOREBOARD] 990 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 16
+# Reference: data out at addr:08, PRDATA:00
+# PASS: [SCOREBOARD] 1050 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 17
+#  MEM[c] <= 0x0
+# Reference: data into memory mem[0c]=00
+# PASS: [SCOREBOARD] 1110 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 18
+#  MEM[18] <= 0x8
+# Reference: data into memory mem[18]=08
+# PASS: [SCOREBOARD] 1170 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 19
+#  MEM[10] <= 0x2
+# Reference: data into memory mem[10]=02
+# PASS: [SCOREBOARD] 1230 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 20
+#  MEM[14] <= 0x2e
+# Reference: data into memory mem[14]=2e
+# PASS: [SCOREBOARD] 1290 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 21
+# Reference: data out at addr:14, PRDATA:2e
+# PASS: [SCOREBOARD] 1350 REF data_out=2e | MON_data_out=2e
+# [MATCH] count = 22
+#  MEM[1c] <= 0xd1
+# Reference: data into memory mem[1c]=d1
+# PASS: [SCOREBOARD] 1410 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 23
+# Reference: data out at addr:00, PRDATA:76
+# PASS: [SCOREBOARD] 1470 REF data_out=76 | MON_data_out=76
+# [MATCH] count = 24
+#  MEM[8] <= 0x10
+# Reference: data into memory mem[08]=10
+# PASS: [SCOREBOARD] 1530 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 25
+# Reference: data out at addr:0c, PRDATA:00
+# PASS: [SCOREBOARD] 1590 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 26
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 1650 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 27
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 1710 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 28
+#  MEM[1c] <= 0xa0
+# Reference: data into memory mem[1c]=a0
+# PASS: [SCOREBOARD] 1770 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 29
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 1830 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 30
+# Reference: data out at addr:08, PRDATA:10
+# PASS: [SCOREBOARD] 1890 REF data_out=10 | MON_data_out=10
+# [MATCH] count = 31
+#  MEM[0] <= 0xa8
+# Reference: data into memory mem[00]=a8
+# PASS: [SCOREBOARD] 1950 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 32
+# Reference: data out at addr:00, PRDATA:a8
+# PASS: [SCOREBOARD] 2010 REF data_out=a8 | MON_data_out=a8
+# [MATCH] count = 33
+# Reference: data out at addr:0c, PRDATA:00
+# PASS: [SCOREBOARD] 2070 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 34
+#  MEM[0] <= 0x91
+# Reference: data into memory mem[00]=91
+# PASS: [SCOREBOARD] 2130 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 35
+#  MEM[1c] <= 0x6c
+# Reference: data into memory mem[1c]=6c
+# PASS: [SCOREBOARD] 2190 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 36
+# Reference: data out at addr:00, PRDATA:91
+# PASS: [SCOREBOARD] 2250 REF data_out=91 | MON_data_out=91
+# [MATCH] count = 37
+# Reference: data out at addr:14, PRDATA:2e
+# PASS: [SCOREBOARD] 2310 REF data_out=2e | MON_data_out=2e
+# [MATCH] count = 38
+#  MEM[c] <= 0xa
+# Reference: data into memory mem[0c]=0a
+# PASS: [SCOREBOARD] 2370 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 39
+# Reference: data out at addr:10, PRDATA:02
+# PASS: [SCOREBOARD] 2430 REF data_out=2 | MON_data_out=2
+# [MATCH] count = 40
+#  MEM[c] <= 0x10
+# Reference: data into memory mem[0c]=10
+# PASS: [SCOREBOARD] 2490 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 41
+# Reference: data out at addr:00, PRDATA:91
+# PASS: [SCOREBOARD] 2550 REF data_out=91 | MON_data_out=91
+# [MATCH] count = 42
+# Reference: data out at addr:0c, PRDATA:10
+# PASS: [SCOREBOARD] 2610 REF data_out=10 | MON_data_out=10
+# [MATCH] count = 43
+# Reference: data out at addr:04, PRDATA:2d
+# PASS: [SCOREBOARD] 2670 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 44
+# Reference: data out at addr:00, PRDATA:91
+# PASS: [SCOREBOARD] 2730 REF data_out=91 | MON_data_out=91
+# [MATCH] count = 45
+# Reference: data out at addr:1c, PRDATA:6c
+# PASS: [SCOREBOARD] 2790 REF data_out=6c | MON_data_out=6c
+# [MATCH] count = 46
+# Reference: data out at addr:14, PRDATA:2e
+# PASS: [SCOREBOARD] 2850 REF data_out=2e | MON_data_out=2e
+# [MATCH] count = 47
+#  MEM[4] <= 0x5b
+# Reference: data into memory mem[04]=5b
+# PASS: [SCOREBOARD] 2910 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 48
+# Reference: data out at addr:0c, PRDATA:10
+# PASS: [SCOREBOARD] 2970 REF data_out=10 | MON_data_out=10
+# [MATCH] count = 49
+# Reference: data out at addr:1c, PRDATA:6c
+# PASS: [SCOREBOARD] 3030 REF data_out=6c | MON_data_out=6c
+# [MATCH] count = 50
+#  MEM[1c] <= 0xf0
+# Reference: data into memory mem[1c]=f0
+# PASS: [SCOREBOARD] 3090 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 51
+#  MEM[c] <= 0x3b
+# Reference: data into memory mem[0c]=3b
+# PASS: [SCOREBOARD] 3150 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 52
+#  MEM[8] <= 0x39
+# Reference: data into memory mem[08]=39
+# PASS: [SCOREBOARD] 3210 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 53
+# Reference: data out at addr:14, PRDATA:2e
+# PASS: [SCOREBOARD] 3270 REF data_out=2e | MON_data_out=2e
+# [MATCH] count = 54
+# Reference: data out at addr:0c, PRDATA:3b
+# PASS: [SCOREBOARD] 3330 REF data_out=3b | MON_data_out=3b
+# [MATCH] count = 55
+#  MEM[8] <= 0xfd
+# Reference: data into memory mem[08]=fd
+# PASS: [SCOREBOARD] 3390 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 56
+# Reference: data out at addr:14, PRDATA:2e
+# PASS: [SCOREBOARD] 3450 REF data_out=2e | MON_data_out=2e
+# [MATCH] count = 57
+#  MEM[18] <= 0x21
+# Reference: data into memory mem[18]=21
+# PASS: [SCOREBOARD] 3510 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 58
+# Reference: data out at addr:08, PRDATA:fd
+# PASS: [SCOREBOARD] 3570 REF data_out=fd | MON_data_out=fd
+# [MATCH] count = 59
+#  MEM[8] <= 0x8c
+# Reference: data into memory mem[08]=8c
+# PASS: [SCOREBOARD] 3630 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 60
+#  MEM[c] <= 0x39
+# Reference: data into memory mem[0c]=39
+# PASS: [SCOREBOARD] 3690 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 61
+#  MEM[10] <= 0x46
+# Reference: data into memory mem[10]=46
+# PASS: [SCOREBOARD] 3750 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 62
+#  MEM[10] <= 0x2d
+# Reference: data into memory mem[10]=2d
+# PASS: [SCOREBOARD] 3810 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 63
+#  MEM[1c] <= 0x31
+# Reference: data into memory mem[1c]=31
+# PASS: [SCOREBOARD] 3870 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 64
+#  MEM[14] <= 0xff
+# Reference: data into memory mem[14]=ff
+# PASS: [SCOREBOARD] 3930 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 65
+# Reference: data out at addr:0c, PRDATA:39
+# PASS: [SCOREBOARD] 3990 REF data_out=39 | MON_data_out=39
+# [MATCH] count = 66
+#  MEM[1c] <= 0x9a
+# Reference: data into memory mem[1c]=9a
+# PASS: [SCOREBOARD] 4050 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 67
+#  MEM[0] <= 0xe2
+# Reference: data into memory mem[00]=e2
+# PASS: [SCOREBOARD] 4110 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 68
+# Reference: data out at addr:00, PRDATA:e2
+# PASS: [SCOREBOARD] 4170 REF data_out=e2 | MON_data_out=e2
+# [MATCH] count = 69
+# Reference: data out at addr:10, PRDATA:2d
+# PASS: [SCOREBOARD] 4230 REF data_out=2d | MON_data_out=2d
+# [MATCH] count = 70
+#  MEM[18] <= 0x83
+# Reference: data into memory mem[18]=83
+# PASS: [SCOREBOARD] 4290 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 71
+#  MEM[c] <= 0x32
+# Reference: data into memory mem[0c]=32
+# PASS: [SCOREBOARD] 4350 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 72
+#  MEM[1c] <= 0xb3
+# Reference: data into memory mem[1c]=b3
+# PASS: [SCOREBOARD] 4410 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 73
+# Reference: data out at addr:08, PRDATA:8c
+# PASS: [SCOREBOARD] 4470 REF data_out=8c | MON_data_out=8c
+# [MATCH] count = 74
+#  MEM[4] <= 0x62
+# Reference: data into memory mem[04]=62
+# PASS: [SCOREBOARD] 4530 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 75
+#  MEM[10] <= 0xd3
+# Reference: data into memory mem[10]=d3
+# PASS: [SCOREBOARD] 4590 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 76
+# Reference: data out at addr:0c, PRDATA:32
+# PASS: [SCOREBOARD] 4650 REF data_out=32 | MON_data_out=32
+# [MATCH] count = 77
+# Reference: data out at addr:14, PRDATA:ff
+# PASS: [SCOREBOARD] 4710 REF data_out=ff | MON_data_out=ff
+# [MATCH] count = 78
+#  MEM[0] <= 0x1e
+# Reference: data into memory mem[00]=1e
+# PASS: [SCOREBOARD] 4770 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 79
+#  MEM[c] <= 0xc9
+# Reference: data into memory mem[0c]=c9
+# PASS: [SCOREBOARD] 4830 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 80
+#  MEM[0] <= 0x6c
+# Reference: data into memory mem[00]=6c
+# PASS: [SCOREBOARD] 4890 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 81
+#  MEM[4] <= 0x8e
+# Reference: data into memory mem[04]=8e
+# PASS: [SCOREBOARD] 4950 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 82
+# Reference: data out at addr:0c, PRDATA:c9
+# PASS: [SCOREBOARD] 5010 REF data_out=c9 | MON_data_out=c9
+# [MATCH] count = 83
+# Reference: data out at addr:00, PRDATA:6c
+# PASS: [SCOREBOARD] 5070 REF data_out=6c | MON_data_out=6c
+# [MATCH] count = 84
+# Reference: data out at addr:0c, PRDATA:c9
+# PASS: [SCOREBOARD] 5130 REF data_out=c9 | MON_data_out=c9
+# [MATCH] count = 85
+#  MEM[0] <= 0x9b
+# Reference: data into memory mem[00]=9b
+# PASS: [SCOREBOARD] 5190 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 86
+#  MEM[10] <= 0x4b
+# Reference: data into memory mem[10]=4b
+# PASS: [SCOREBOARD] 5250 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 87
+#  MEM[10] <= 0xd5
+# Reference: data into memory mem[10]=d5
+# PASS: [SCOREBOARD] 5310 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 88
+# Reference: data out at addr:0c, PRDATA:c9
+# PASS: [SCOREBOARD] 5370 REF data_out=c9 | MON_data_out=c9
+# [MATCH] count = 89
+# Reference: data out at addr:18, PRDATA:83
+# PASS: [SCOREBOARD] 5430 REF data_out=83 | MON_data_out=83
+# [MATCH] count = 90
+#  MEM[18] <= 0xc2
+# Reference: data into memory mem[18]=c2
+# PASS: [SCOREBOARD] 5490 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 91
+# Reference: data out at addr:04, PRDATA:8e
+# PASS: [SCOREBOARD] 5550 REF data_out=8e | MON_data_out=8e
+# [MATCH] count = 92
+# Reference: data out at addr:18, PRDATA:c2
+# PASS: [SCOREBOARD] 5610 REF data_out=c2 | MON_data_out=c2
+# [MATCH] count = 93
+# Reference: data out at addr:14, PRDATA:ff
+# PASS: [SCOREBOARD] 5670 REF data_out=ff | MON_data_out=ff
+# [MATCH] count = 94
+#  MEM[0] <= 0xac
+# Reference: data into memory mem[00]=ac
+# PASS: [SCOREBOARD] 5730 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 95
+# Reference: data out at addr:18, PRDATA:c2
+# PASS: [SCOREBOARD] 5790 REF data_out=c2 | MON_data_out=c2
+# [MATCH] count = 96
+#  MEM[8] <= 0xf6
+# Reference: data into memory mem[08]=f6
+# PASS: [SCOREBOARD] 5850 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 97
+#  MEM[14] <= 0xa2
+# Reference: data into memory mem[14]=a2
+# PASS: [SCOREBOARD] 5910 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 98
+#  MEM[4] <= 0x8e
+# Reference: data into memory mem[04]=8e
+# PASS: [SCOREBOARD] 5970 REF data_out=0 | MON_data_out=0
+# [MATCH] count = 99
+# Reference: data out at addr:1c, PRDATA:b3
+# PASS: [SCOREBOARD] 6030 REF data_out=b3 | MON_data_out=b3
+# [MATCH] count = 100
+# 
+# ========================================================
+#              FINAL SIMULATION RUN SUMMARY               
+# ========================================================
+#   Total Matches Checked   : 100
+#   Total Mismatches Found  : 0
+#   Verification Verdict    : PASSED
+# ========================================================
+# 
+##################################################  end of simulation ######################################################
+# ** Note: $finish    : apb_top.sv(40)
+#    Time: 7030 ns  Iteration: 0  Instance: /apb_top
+# End time: 00:35:59 on Aug 19,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 1
